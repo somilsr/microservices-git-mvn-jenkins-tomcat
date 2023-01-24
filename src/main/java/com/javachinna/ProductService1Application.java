@@ -10,11 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class ProductService1Application {
-@RequestMapping("/")
+@RequestMapping("")
 @PostMapping("")
 String msg() {
 	return "Hello welocome ";
 }
+@RequestMapping("/")
 @PostMapping("wish")
 String wish() {
 	return "welcome back you did it ";
